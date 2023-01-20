@@ -97,7 +97,7 @@ exports.Task = extend(TolokaHandlebarsTask, function(options) {
             this.setSolutionOutputValue('result', {});
             this.setSolutionOutputValue('text_review_mode', []);
         }
-
+        // отредактируйте текст для изменения формулировки задания
         if ((!solution.output_values.result || Object.keys(solution.output_values.result).length === 0) && !solution.output_values.no_result) {
             errors = this.addError('Выделите хотя бы одно слово или выберите вариант ответа "В тексте нет кореферентных сущностей"', '__TASK__', errors);
         }
