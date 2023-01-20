@@ -1,0 +1,23 @@
+/* Задание на странице */
+.task {
+    display: block;
+    max-width: 1200px;
+    margin: 20px auto;
+    font-size: 18px;
+}
+
+.task-suite {
+    height: 100%;
+}
+
+/* Отображение задания на мобильных устройствах */
+@media screen and (max-width: 767px) {
+    .task {
+        border: none;
+    }
+
+    .task_focused {
+        box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+}
