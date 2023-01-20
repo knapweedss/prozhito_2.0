@@ -6,3 +6,8 @@
   - https://lead-assessors.s3.yandex.net/82652fef-11f6-4f67-8afc-d94daa35d3a9
   - $TOLOKA_ASSETS/js/toloka-handlebars-templates.js (default) 
 2. Copy & paste the corresponding code (toloka_interface.js -> js editor etc.) to the task interface 
+3. Expected result: 
+
+<p align="left">
+<img src="iterface_showcase.png" alt="pos_distr" width="600" />
+</p>
