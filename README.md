@@ -9,5 +9,5 @@
 3. Expected result: 
 
 <p align="left">
-<img src="iterface_showcase.png" alt="pos_distr" width="600" />
+<img src="interface_showcase.png" alt="toloka" width="600" />
 </p>
